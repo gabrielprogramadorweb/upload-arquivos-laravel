@@ -2,7 +2,7 @@ O upload de arquivos em Laravel é um processo comum ao lidar com formulários q
 
 Formulário HTML:
 No seu formulário HTML, certifique-se de adicionar o atributo enctype="multipart/form-data" para permitir o envio de arquivos. Exemplo:
-
+<?php
 <html>
 <form action="/upload" method="post" enctype="multipart/form-data">
     @csrf
@@ -10,5 +10,6 @@ No seu formulário HTML, certifique-se de adicionar o atributo enctype="multipar
     <button type="submit">Enviar</button>
 </form>
 </html>
+<?
 Criar storage: php artisan storage:link
 
