@@ -9,7 +9,7 @@ No seu formulário HTML, certifique-se de adicionar o atributo enctype="multipar
         <input type="file" name="arquivo">
         <button type="submit">Enviar</button>
     </form>
-```</html>
+</html>
 
 Criar storage: php artisan storage:link
 
